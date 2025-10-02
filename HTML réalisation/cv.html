@@ -1,169 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mohamed Aghbalou - CV</title>
+  <title>CV</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #FEF3E2;
-    }
-    header {
-      text-align: center;
+      font-family: sans-serif;
+       margin: 0;
+      padding: 0;
+      background: #f0f0f0;
+      color: #333;
     }
 
-    header h1 {
-      margin-bottom: 5px;
-      color: #102C57;
+   nav {
+      display: flex;
+      gap: 2rem;
+      background-color: #e0e0e0;
+      padding: 1rem;
     }
 
     nav a {
-      color: #102C57;
       text-decoration: none;
-      margin: 0 10px;
+      color: #333;
       font-weight: bold;
     }
 
-    .profile-section {
+    header {
+      background: #007acc;
+      color: white;
       text-align: center;
-      padding: 40px 20px;
-      background-color: #F8F0E3;
-    }
-    .profile-section h2 {
-      color: #102C57;
-      margin: 10px 0 5px;
+      padding: 30px 10px;
     }
 
-
-
-
-    section h2 {
-      border-bottom: 2px solid #DAC0A3;
-      padding-bottom: 5px;
-      color: #102C57;
-      margin-top: 30px;
+    main {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
     }
 
-    ul {
-      list-style-type: square;
-      padding-left: 20px;
+    section {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+
     }
 
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 15px;
+    h2 {
+      color: #007acc;
+      margin-bottom: 10px;
     }
+      main {
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
 
-    th, td {
-      border: 1px solid #DAC0A3;
-      padding: 12px;
-      text-align: left;
-    }
-
-    th {
-      background-color: #EADBC8;
-      color: #102C57;
-      font-weight: bold;
-    }
-
-    footer {
-      text-align: center;
-      padding: 10px;
-      margin-top: 30px;
-      border-top: 1px solid #DAC0A3;
-      color: #555;
-      font-size: 0.9em;
-    }
-
-    .section-divider {
-      border: none;
-      height: 1px;
-      background-color: #DAC0A3;
-      margin: 20px 0;
-    }
+      section {
+        flex: 1 1 45%;
+      }
+    
   </style>
 </head>
 <body>
+
+  <nav>
+    <a href="index.html">home</a>
+    <a href="Contact.html">Contact</a>
+  </nav>
+
   <header>
-    <h1>Mon CV</h1>
-    <nav>
-      <a href="index.html">Home</a> |
-      <a href="cv.html">CV</a> |
-      <a href="contact.html">Contact</a>
-    </nav>
-    <hr>
+    <h1>Mohamed Aghbalou</h1>
   </header>
 
-  <section class="profile-section">
-    <img src="assets/profile-circle.svg" width="150" height="150" alt="photo"><br>
-    <h2><em>Mohamed Aghbalou</em></h2>
-    <p>
-      <a href="https://github.com/medsolicode" target="_blank">GitHub</a> |
-      <a href="mailto:example@email.com">Email</a> |
-      <a href="https://linkedin.com/in/username" target="_blank">LinkedIn</a>
-    </p>
-  </section>
+  <main>
+    <section>
+      <h2>Profil</h2>
+      <p>Passionné par le développement web et les marchés finnancier, je suis un apprenant à Solicode, où j'acquiers les compétences techniques et les soft skills nécessaires pour réussir dans le monde de la tech.</p>
+    </section>
 
-  <section>
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML, CSS</li>
-      <li>Git, GitHub, Team Work</li>
-    </ul>
-    <div class="section-divider"></div>
-  </section>
+    <section>
+      <h2>Compétences</h2>
+      <ul>
+        <li>HTML / CSS</li>
+        <li>Git / GitHub</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>Education</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>École</th>
-          <th>Nom</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Université</td>
-          <td>Université Abdelmalek Essaâdi</td>
-        </tr>
-        <tr>
-          <td>École</td>
-          <td>Lycée Imame Ghazali - Tétouan</td>
-        </tr>
-      </tbody>
-    </table>
-    <div class="section-divider"></div>
-  </section>
+    <section>
+      <h2>Formation</h2>
+      <ul>
+        <li>bachelier - Lycée technique al imam al ghazali - 2014-2018</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>Experience</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Position</th>
-          <th>Société</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Ma Position</td>
-          <td>Société A</td>
-        </tr>
-        <tr>
-          <td>Freelance</td>
-          <td>Portfolio en GitHub</td>
-        </tr>
-      </tbody>
-    </table>
-    <div class="section-divider"></div>
-  </section>
- 
-  <footer>
-    <p>2025 Solicode.</p>
-  </footer>
+    <section>
+      <h2>Expériences</h2>
+      <ul>
+        <li>Dropshipping e-com 2018 - 2021</li>
+        <li>co-fondateur d'agence de conception et digital marketing - fluxus 2021-2023</li>
+         <li>debut de carrier dans le monde des marchée finnacier 2023 - Présent</li>
+      </ul>
+    </section>
+  </main>
 
 </body>
 </html>
